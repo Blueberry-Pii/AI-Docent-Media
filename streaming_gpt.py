@@ -5,11 +5,11 @@ import os
 
 load_dotenv(override=True)
 
-with open('streaming_data/mwc2026_통합한국관_최종.json', 'r', encoding='utf-8') as f:
+with open('streaming_data/mwc2026_통합한국관.json', 'r', encoding='utf-8') as f:
     pavilion_data = json.load(f)
-with open('streaming_data/mwc2026_참가기업_LIGHT.json', 'r', encoding='utf-8') as f:
+with open('streaming_data/mwc2026_참가기업.json', 'r', encoding='utf-8') as f:
     company_data = json.load(f)
-with open('streaming_data/mwc2026_참가기업 카테고리 분류안_전송용_final.json', 'r', encoding='utf-8') as f:
+with open('streaming_data/mwc2026_참가기업 카테고리.json', 'r', encoding='utf-8') as f:
     category_data = json.load(f)
 
 
