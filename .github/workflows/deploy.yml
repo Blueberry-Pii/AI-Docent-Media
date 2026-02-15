@@ -1,0 +1,21 @@
+name: Deploy to AWS App Runner
+
+on:
+  push:
+    branches:
+      - main  # main 브랜치에 코드가 올라가면 실행됩니다.
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      # 이 워크플로우는 코드가 성공적으로 푸시되었음을 알리는 역할을 합니다.
+      # 실제 '빌드'와 'HTTPS 주소 생성'은 AWS App Runner 콘솔에서 
+      # 이 레포지토리를 연결할 때 "Automatic Deployment: Yes"로 설정하면 완료됩니다.
+      - name: Notify Deployment Start
+        run: |
+          echo "New code pushed to main branch."
+          echo "AWS App Runner will now pull the changes and redeploy."
