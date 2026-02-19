@@ -52,7 +52,9 @@ async def start_session():
         "Content-Type": "application/json"
     }
     payload = {
-        "source_url": "https://github.com/user-attachments/assets/68cd270e-75b0-4b0a-881a-78e4f423cefe" 
+        "source_url": "https://github.com/user-attachments/assets/68cd270e-75b0-4b0a-881a-78e4f423cefe",
+        "config": {"stitch": True},
+        "face": {"top_left": [700, 72], "size": 1632}
     }
     
     response = requests.post(url, json=payload, headers=headers)
