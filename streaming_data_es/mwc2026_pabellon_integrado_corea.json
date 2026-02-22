@@ -1,52 +1,50 @@
 [
     {
         "categoría": "Información de Operación y Evento",
-        "nombre_evento": "MWC Barcelona 2026 (Mobile World Congress)",
-        "periodo": "Del lunes 2 de marzo al jueves 5 de marzo de 2026 (4 días en total)",
+        "nombre_evento": "MWC Barcelona 2026",
+        "periodo": "Del lunes 2 de marzo al jueves 5 de marzo de 2026",
         "horarios_detallados": {
-            "Lunes 3 de marzo": "09:00 - 19:00",
+            "Lunes 2 de marzo": "09:00 - 19:00",
             "Martes 3 de marzo": "09:00 - 19:00",
             "Miércoles 4 de marzo": "09:00 - 19:00",
-            "Jueves 5 de marzo": "09:00 - 16:00 (Cierre temprano el último día)"
+            "Jueves 5 de marzo": "09:00 - 16:00"
         },
         "ubicación": "Recinto ferial Fira Gran Via, Barcelona, España",
         "objetivo": "Apoyar la expansión global de las empresas innovadoras de Corea del Sur, promover la tecnología K-Innovation y establecer asociaciones globales.",
-        "guía_docente": "¡Hola! Soy 'ARI', la guía docente de IA del Pabellón de Corea en el MWC 2026. Pregúntame lo que quieras sobre la configuración del pabellón y las empresas participantes."
+        "guía_docente": "Hola, soy ARI, la guía docente de IA del Pabellón de Corea. Pregúntame sobre el pabellón y las empresas participantes."
     },
     {
         "categoría": "Guía de Espacios",
         "ubicación": "Hall 6",
-        "nombre": "Pabellón de Empresas Generales (Individual)",
-        "contenido_principal": "Exhibición de empresas especializadas en recursos hídricos y sectores industriales específicos.",
-        "instituciones_relacionadas": ["K-water (Corporación de Recursos Hídricos de Corea)"]
+        "nombre": "Pabellón de Empresas Generales",
+        "contenido_principal": "Exhibición de empresas especializadas en recursos hídricos.",
+        "instituciones_relacionadas": ["K-water"]
     },
     {
         "categoría": "Guía de Espacios",
         "ubicación": "Hall 7",
-        "nombre": "Pabellón Integrado de Corea (KOREA Pavilion)",
-        "contenido_principal": "Pabellón nacional principal donde se reúnen las PYMES prometedoras de Corea del Sur.",
-        "instituciones_relacionadas": ["KOTRA", "KICTA", "Gyeongsangbuk-do", "SBA (Agencia de Negocios de Seúl)"]
+        "nombre": "Pabellón Integrado de Corea",
+        "contenido_principal": "Pabellón nacional donde se reúnen PYMES prometedoras de Corea del Sur.",
+        "instituciones_relacionadas": ["KOTRA", "KICTA", "Gyeongsangbuk-do", "SBA Seúl"]
     },
     {
         "categoría": "Guía de Espacios",
-        "ubicación": "Hall 8.1 (4YFN)",
-        "nombre": "Pabellón de Startups (4 Years From Now)",
-        "contenido_principal": "Pabellón exclusivo para startups innovadoras y alianzas ESG de grandes corporaciones.",
-        "instituciones_relacionadas": ["KITA (Asociación de Comercio Internacional de Corea)", "KOTEC (Tecnología de Garantía de Crédito)", "SK Telecom", "KT", "LG Uplus", "K-water (Equipo de Startups)"]
+        "ubicación": "Hall 8.1",
+        "nombre": "Pabellón de Startups 4YFN",
+        "contenido_principal": "Pabellón exclusivo para startups innovadoras y alianzas ESG.",
+        "instituciones_relacionadas": ["KITA", "KOTEC", "SK Telecom", "KT", "LG Uplus", "K-water"]
     },
     {
-        "institución_anfitriona_KR": "한국수자원공사",
-        "institución_anfitriona_EN": "K-Water",
+        "institución_anfitriona_ES": "K-water",
         "categoría_stand": "General",
         "pabellón": "Hall 6",
         "número_stand": "6C16",
         "escala_participación": "1 empresa",
         "tipo_participación": "Individual",
-        "departamento_encargado": "Grupo de Impulso de IA de K-water"
+        "departamento_encargado": "Grupo de Impulso de IA"
     },
     {
-        "institución_anfitriona_KR": "대한무역투자진흥공사",
-        "institución_anfitriona_EN": "Korea Trade-Investment Promotion Agency (KOTRA)",
+        "institución_anfitriona_ES": "KOTRA",
         "categoría_stand": "General",
         "pabellón": "Hall 7",
         "número_stand": "7A62",
@@ -55,8 +53,7 @@
         "departamento_encargado": "-"
     },
     {
-        "institución_anfitriona_KR": "한국정보통신기술산업협회",
-        "institución_anfitriona_EN": "Korea Information & Communication Technology Industry Association (KICTA)",
+        "institución_anfitriona_ES": "KICTA",
         "categoría_stand": "General",
         "pabellón": "Hall 7",
         "número_stand": "7C51",
@@ -65,8 +62,7 @@
         "departamento_encargado": "Equipo de Planificación y Operación"
     },
     {
-        "institución_anfitriona_KR": "경상북도관",
-        "institución_anfitriona_EN": "Gyeongsangbuk-do",
+        "institución_anfitriona_ES": "Gyeongsangbuk-do",
         "categoría_stand": "General",
         "pabellón": "Hall 7",
         "número_stand": "7A69",
@@ -75,8 +71,7 @@
         "departamento_encargado": "Departamento de IA y Datos"
     },
     {
-        "institución_anfitriona_KR": "서울경제진흥원",
-        "institución_anfitriona_EN": "Seoul Business Agency (SBA)",
+        "institución_anfitriona_ES": "SBA Seúl",
         "categoría_stand": "General",
         "pabellón": "Hall 7",
         "número_stand": "7E51",
@@ -85,18 +80,16 @@
         "departamento_encargado": "Equipo de Activación de DMC"
     },
     {
-        "institución_anfitriona_KR": "한국무역협회",
-        "institución_anfitriona_EN": "Korea International Trade Association (KITA)",
+        "institución_anfitriona_ES": "KITA",
         "categoría_stand": "4YFN",
         "pabellón": "Hall 8",
         "número_stand": "D30, D31",
         "escala_participación": "20 empresas",
         "tipo_participación": "Pabellón Conjunto",
-        "departamento_encargado": "Oficina de Crecimiento Global de Startups"
+        "departamento_encargado": "Oficina de Crecimiento Global"
     },
     {
-        "institución_anfitriona_KR": "한국정보통신산업기술협회",
-        "institución_anfitriona_EN": "Korea Information & Communication Technology Industry Association (KICTA)",
+        "institución_anfitriona_ES": "KICTA 4YFN",
         "categoría_stand": "4YFN",
         "pabellón": "Hall 8.1",
         "número_stand": "B41, 42",
@@ -105,51 +98,46 @@
         "departamento_encargado": "Equipo de Planificación y Operación"
     },
     {
-        "institución_anfitriona_KR": "기술보증기금",
-        "institución_anfitriona_EN": "Korea Technology Finance Corporation",
+        "institución_anfitriona_ES": "KOTEC",
         "categoría_stand": "4YFN",
         "pabellón": "Hall 8.1",
         "número_stand": "D11",
         "escala_participación": "10 empresas",
         "tipo_participación": "Pabellón Conjunto",
-        "departamento_encargado": "Departamento de Finanzas para la Innovación de Venture"
+        "departamento_encargado": "Departamento de Finanzas para la Innovación"
     },
     {
-        "institución_anfitriona_KR": "한국수자원공사",
-        "institución_anfitriona_EN": "Korea Water Resources Corporation (K-water)",
+        "institución_anfitriona_ES": "K-water Startups",
         "categoría_stand": "4YFN",
         "pabellón": "Hall 8.1",
         "número_stand": "D61",
         "escala_participación": "8 empresas",
         "tipo_participación": "Pabellón Conjunto",
-        "departamento_encargado": "División de Estrategia de Nuevo Crecimiento de K-water"
+        "departamento_encargado": "División de Estrategia"
     },
     {
-        "institución_anfitriona_KR": "에스케이텔레콤",
-        "institución_anfitriona_EN": "SK Telecom - ESG Alliance",
+        "institución_anfitriona_ES": "SK Telecom",
         "categoría_stand": "4YFN",
         "pabellón": "Hall 8.1",
-        "número_stand": "TBA (Por anunciar)",
+        "número_stand": "TBA",
         "escala_participación": "15 empresas",
         "tipo_participación": "Pabellón Conjunto",
         "departamento_encargado": "-"
     },
     {
-        "institución_anfitriona_KR": "케이티",
-        "institución_anfitriona_EN": "KT Corporation",
+        "institución_anfitriona_ES": "KT Corporation",
         "categoría_stand": "4YFN",
         "pabellón": "Hall 8.1",
-        "número_stand": "TBA (Por anunciar)",
+        "número_stand": "TBA",
         "escala_participación": "10 empresas",
         "tipo_participación": "Pabellón Conjunto",
         "departamento_encargado": "-"
     },
     {
-        "institución_anfitriona_KR": "LG 유플러스",
-        "institución_anfitriona_EN": "LG Uplus",
+        "institución_anfitriona_ES": "LG Uplus",
         "categoría_stand": "4YFN",
         "pabellón": "Hall 8.1",
-        "número_stand": "TBA (Por anunciar)",
+        "número_stand": "TBA",
         "escala_participación": "10 empresas",
         "tipo_participación": "Pabellón Conjunto",
         "departamento_encargado": "-"
