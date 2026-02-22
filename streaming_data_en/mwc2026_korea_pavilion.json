@@ -35,7 +35,6 @@
         "Related Organizations": ["KITA", "Korea Technology Finance Corporation", "SK Telecom", "KT", "LG Uplus", "K-water (Startup Team)"]
     },
     {
-        "Host Organization_KR": "한국수자원공사",
         "Host Organization_EN": "K-Water",
         "Category": "General",
         "Exhibition Hall": "Hall 6",
@@ -45,7 +44,6 @@
         "Responsible Department": "K-water AI Promotion Division"
     },
     {
-        "Host Organization_KR": "대한무역투자진흥공사",
         "Host Organization_EN": "Korea Trade-Investment Promotion Agency (KOTRA)",
         "Category": "General",
         "Exhibition Hall": "Hall 7",
@@ -55,7 +53,6 @@
         "Responsible Department": "-"
     },
     {
-        "Host Organization_KR": "한국정보통신기술산업협회",
         "Host Organization_EN": "Korea Information & Communication Technology Industry Association (KICTA)",
         "Category": "General",
         "Exhibition Hall": "Hall 7",
@@ -65,7 +62,6 @@
         "Responsible Department": "Planning & Operations Team"
     },
     {
-        "Host Organization_KR": "경상북도관",
         "Host Organization_EN": "Gyeongsangbuk-do",
         "Category": "General",
         "Exhibition Hall": "Hall 7",
@@ -75,7 +71,6 @@
         "Responsible Department": "AI Data Department"
     },
     {
-        "Host Organization_KR": "서울경제진흥원",
         "Host Organization_EN": "Seoul Business Agency (SBA)",
         "Category": "General",
         "Exhibition Hall": "Hall 7",
@@ -85,7 +80,6 @@
         "Responsible Department": "DMC Vitalization Team"
     },
     {
-        "Host Organization_KR": "한국무역협회",
         "Host Organization_EN": "Korea International Trade Association (KITA)",
         "Category": "4YFN",
         "Exhibition Hall": "Hall 8",
@@ -95,7 +89,6 @@
         "Responsible Department": "Startup Global Growth Bureau"
     },
     {
-        "Host Organization_KR": "한국정보통신산업기술협회",
         "Host Organization_EN": "Korea Information & Communication Technology Industry Association (KICTA)",
         "Category": "4YFN",
         "Exhibition Hall": "Hall 8.1",
@@ -105,7 +98,6 @@
         "Responsible Department": "Planning & Operations Team"
     },
     {
-        "Host Organization_KR": "기술보증기금",
         "Host Organization_EN": "Korea Technology Finance Corporation",
         "Category": "4YFN",
         "Exhibition Hall": "Hall 8.1",
@@ -115,7 +107,6 @@
         "Responsible Department": "Venture Innovation Finance Department"
     },
     {
-        "Host Organization_KR": "한국수자원공사",
         "Host Organization_EN": "Korea Water Resources Corporation (K-water)",
         "Category": "4YFN",
         "Exhibition Hall": "Hall 8.1",
@@ -125,7 +116,6 @@
         "Responsible Department": "K-water New Growth Strategy Bureau"
     },
     {
-        "Host Organization_KR": "에스케이텔레콤",
         "Host Organization_EN": "SK Telecom - ESG Alliance",
         "Category": "4YFN",
         "Exhibition Hall": "Hall 8.1",
@@ -135,7 +125,6 @@
         "Responsible Department": "-"
     },
     {
-        "Host Organization_KR": "케이티",
         "Host Organization_EN": "KT Corporation",
         "Category": "4YFN",
         "Exhibition Hall": "Hall 8.1",
@@ -145,7 +134,6 @@
         "Responsible Department": "-"
     },
     {
-        "Host Organization_KR": "LG 유플러스",
         "Host Organization_EN": "LG Uplus",
         "Category": "4YFN",
         "Exhibition Hall": "Hall 8.1",
