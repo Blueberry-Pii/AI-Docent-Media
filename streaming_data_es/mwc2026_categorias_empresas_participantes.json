@@ -1,0 +1,258 @@
+[
+    {
+        "número": 1,
+        "categoría": "Conectividad Ultra / Convergencia de IA",
+        "nombre_empresa": "Lablup Inc.",
+        "nombre_producto": "Backend.AI",
+        "detalles": "Lablup desarrolla Backend.AI, una solución de operación de infraestructura para todas las IAs del mundo.",
+        "clasificación": "General"
+    },
+    {
+        "número": 2,
+        "categoría": "Conectividad Ultra / Convergencia de IA",
+        "nombre_empresa": "Ucast Co., Ltd.",
+        "nombre_producto": "Private 5G System",
+        "detalles": "Empresa especializada en comunicaciones móviles que ofrece soluciones totales, desde el desarrollo de hardware y software hasta la producción y el mantenimiento.",
+        "clasificación": "General"
+    },
+    {
+        "número": 3,
+        "categoría": "Conectividad Ultra / Convergencia de IA",
+        "nombre_empresa": "Infopla Co., Ltd.",
+        "nombre_producto": "RPA:M",
+        "detalles": "Infopla es una empresa que implementa la automatización de tareas mediante tecnología de IA basada en visión que comprende las pantallas como lo hace un humano.",
+        "clasificación": "General"
+    },
+    {
+        "número": 12,
+        "categoría": "Conectividad Ultra / Convergencia de IA",
+        "nombre_empresa": "RTX Technology Co., Ltd.",
+        "nombre_producto": "5G/6G Ceramic Waveguide Filter",
+        "detalles": "Empresa especializada que ofrece soluciones de comunicación óptimas para cada cliente a través de la fabricación personalizada de componentes de RF de alta calidad y rendimiento.",
+        "clasificación": "General"
+    },
+    {
+        "número": 13,
+        "categoría": "Conectividad Ultra / Convergencia de IA",
+        "nombre_empresa": "Iruon Co., Ltd.",
+        "nombre_producto": "5G Core (eCore)",
+        "detalles": "Empresa de soluciones de núcleo de red de próxima generación que lidera la evolución de la tecnología de comunicación desde 2G hasta 6G, basada en su experiencia de implementación en redes comerciales como KT y LG U+.",
+        "clasificación": "General"
+    },
+    {
+        "número": 15,
+        "categoría": "Conectividad Ultra / Convergencia de IA",
+        "nombre_empresa": "EYL",
+        "nombre_producto": "Quantum Crypto Chip (QCC)",
+        "detalles": "Empresa que ofrece soluciones de seguridad de convergencia cuántica de próxima generación que bloquean fundamentalmente el hackeo en diversos campos como IoT, defensa y finanzas, basándose en la tecnología central de generadores de números aleatorios cuánticos (QRNG) ultrapequeños utilizando isótopos radiactivos por primera vez en el mundo.",
+        "clasificación": "General"
+    },
+    {
+        "número": 17,
+        "categoría": "Conectividad Ultra / Convergencia de IA",
+        "nombre_empresa": "F1 Security Co., Ltd.",
+        "nombre_producto": "F1-UWSS",
+        "detalles": "Empresa de ciberseguridad que ofrece servicios de seguridad web integrados basados en la nube (UWSS) con base en su capacidad de consultoría especializada en protección de información.",
+        "clasificación": "Startup"
+    },
+    {
+        "número": 21,
+        "categoría": "Conectividad Ultra / Convergencia de IA",
+        "nombre_empresa": "CIT Co., Ltd.",
+        "nombre_producto": "LDS Antenna",
+        "detalles": "CIT es una empresa especializada en materiales de TI para la transmisión de datos a alta velocidad.",
+        "clasificación": "Startup"
+    },
+    {
+        "número": 27,
+        "categoría": "Conectividad Ultra / Convergencia de IA",
+        "nombre_empresa": "Langcode Inc.",
+        "nombre_producto": "Langcode CXP",
+        "detalles": "Plataforma de agentes de IA para empresas que permite una introducción y escalabilidad rápida y segura de agentes.",
+        "clasificación": "Startup"
+    },
+    {
+        "número": 29,
+        "categoría": "Conectividad Ultra / Convergencia de IA",
+        "nombre_empresa": "N-Open Inc.",
+        "nombre_producto": "FINGER LOCK",
+        "detalles": "Empresa de seguridad que crea soluciones de autenticación biométrica compuesta (MFA) centradas en la privacidad, donde el usuario posee directamente su información personal sin dependencia de la red.",
+        "clasificación": "Startup"
+    },
+    {
+        "número": 11,
+        "categoría": "Conectividad Ultra / Convergencia de IA",
+        "nombre_empresa": "Alt Inc.",
+        "nombre_producto": "KIDS OS",
+        "detalles": "Empresa especializada en dispositivos inteligentes que desarrolla y suministra smartphones especializados para niños/ancianos, plataformas de cuidado, robots de cuidado con IA y decodificadores Android con IA.",
+        "clasificación": "General"
+    },
+    {
+        "número": 30,
+        "categoría": "Movilidad / Robótica",
+        "nombre_empresa": "C4Line Co., Ltd.",
+        "nombre_producto": "C4L2000G-WB6E-2E",
+        "detalles": "Fabricante de módems extensores de señal Wi-Fi y Gigabit IP para la construcción de hogares y edificios inteligentes.",
+        "clasificación": "Startup"
+    },
+    {
+        "número": 4,
+        "categoría": "Movilidad / Robótica",
+        "nombre_empresa": "Point Mobile Co., Ltd.",
+        "nombre_producto": "PM84",
+        "detalles": "Empresa de soluciones móviles con una variada línea de dispositivos industriales que incluye tabletas robustas, terminales 5G MCPTT, computadoras móviles, terminales de mano, POS, escáneres Bluetooth y lectores RFID.",
+        "clasificación": "General"
+    },
+    {
+        "número": 5,
+        "categoría": "Movilidad / Robótica",
+        "nombre_empresa": "Creemo Co., Ltd.",
+        "nombre_producto": "360° Beam Coverage 5G Stackable Patch Antenna Module",
+        "detalles": "Creemo es una empresa especializada que realiza desde el diseño, fabricación, medición hasta la validación de tecnología de antenas y soluciones de sistemas basados en 5G/6G, mmWave y antenas de matriz de fase.",
+        "clasificación": "General"
+    },
+    {
+        "número": 7,
+        "categoría": "Movilidad / Robótica",
+        "nombre_empresa": "Optiflo",
+        "nombre_producto": "OPTiFL-S1",
+        "detalles": "Empresa especializada en componentes ópticos de cristal líquido que ofrece soluciones para mejorar la visibilidad exterior y la inmersión esencial en gafas inteligentes (AR, VR, AI Glasses).",
+        "clasificación": "General"
+    },
+    {
+        "número": 9,
+        "categoría": "Movilidad / Robótica",
+        "nombre_empresa": "Delta X",
+        "nombre_producto": "In Cabin Monitoring Solution (ICMS)",
+        "detalles": "Delta X desarrolla soluciones de IA de vanguardia en los campos de visión por computadora y ESS para resolver los problemas de los clientes y proporcionar valores orientados al futuro.",
+        "clasificación": "General"
+    },
+    {
+        "número": 10,
+        "categoría": "Movilidad / Robótica",
+        "nombre_empresa": "SPS Co., Ltd.",
+        "nombre_producto": "Magconn",
+        "detalles": "Empresa que posee el desarrollo de la tecnología Magconn y los derechos de propiedad intelectual globales. Busca la estandarización de la tecnología Magconn y expande productos aplicados mediante alianzas con diversas empresas mundiales que desean usar el módulo Magconn.",
+        "clasificación": "General"
+    },
+    {
+        "número": 18,
+        "categoría": "Movilidad / Robótica",
+        "nombre_empresa": "Roborisen Co., Ltd.",
+        "nombre_producto": "EDU CORE",
+        "detalles": "G-Cube: El primer robot de plataforma abierta del mundo que permite implementar todos los movimientos del robot de forma fácil y rápida con un solo módulo para crear decenas o cientos de tipos de robots.",
+        "clasificación": "Startup"
+    },
+    {
+        "número": 20,
+        "categoría": "Movilidad / Robótica",
+        "nombre_empresa": "J&E Works Co., Ltd.",
+        "nombre_producto": "VMS (Vessel Monitoring System)",
+        "detalles": "J&E Works es una empresa especializada en IA Factory que construye plataformas de fabricación virtual de robots basadas en su ADN de manufactura.",
+        "clasificación": "Startup"
+    },
+    {
+        "número": 25,
+        "categoría": "Movilidad / Robótica",
+        "nombre_empresa": "Batterfly Co., Ltd.",
+        "nombre_producto": "BBTAN",
+        "detalles": "Batterfly es una empresa de tecnología energética que hace realidad la economía circular de los vehículos eléctricos a través del análisis de datos de baterías y la evaluación de seguridad, vida útil y valor residual basada en IA.",
+        "clasificación": "Startup"
+    },
+    {
+        "número": 28,
+        "categoría": "Vida / Seguridad",
+        "nombre_empresa": "EyeChip Co., Ltd.",
+        "nombre_producto": "EyeChip",
+        "detalles": "Empresa fabless líder en tecnología de seguimiento ocular a través de soluciones avanzadas de un solo chip.",
+        "clasificación": null
+    },
+    {
+        "número": 14,
+        "categoría": "Vida / Seguridad",
+        "nombre_empresa": "Becon Co., Ltd.",
+        "nombre_producto": "Scalp Scanner (M1)",
+        "detalles": "Empresa de salud digital basada en IA que gestiona el cuero cabelludo y la piel.",
+        "clasificación": "General"
+    },
+    {
+        "número": 19,
+        "categoría": "Vida / Seguridad",
+        "nombre_empresa": "Norispace Co., Ltd.",
+        "nombre_producto": "NoriS Forgery Detection",
+        "detalles": "Norispace es una startup de tecnología financiera que ofrece soluciones de detección de falsificaciones basadas en IA para detectar alteraciones en documentos digitales.",
+        "clasificación": "Startup"
+    },
+    {
+        "número": 22,
+        "categoría": "Vida / Seguridad",
+        "nombre_empresa": "FocusAI Co., Ltd.",
+        "nombre_producto": "FocusAI",
+        "detalles": "FocusAI es una empresa especializada en soluciones de pago fintech y seguridad de IA con sede en Corea.",
+        "clasificación": "Startup"
+    },
+    {
+        "número": 23,
+        "categoría": "Vida / Seguridad",
+        "nombre_empresa": "Removing Company Inc.",
+        "nombre_producto": "Motion analyzer",
+        "detalles": "Empresa de soluciones de salud que diseña una vida diaria saludable a través de un análisis de movimiento preciso basado en datos.",
+        "clasificación": "Startup"
+    },
+    {
+        "número": 24,
+        "categoría": "Vida / Seguridad",
+        "nombre_empresa": "Beagles Inc.",
+        "nombre_producto": "Apeto",
+        "detalles": "Beagles es una empresa de soluciones de contenido de IA que combina IP, IA emocional y tecnología NFC para expandir productos físicos en experiencias digitales interactivas.",
+        "clasificación": "Startup"
+    },
+    {
+        "número": 26,
+        "categoría": "Vida / Seguridad",
+        "nombre_empresa": "Petnow Inc.",
+        "nombre_producto": "Petnow App",
+        "detalles": "Empresa global de pet-tech que proporciona identificación de mascotas y servicios basados en datos mediante biometría basada en la cámara del smartphone.",
+        "clasificación": "Startup"
+    },
+    {
+        "número": 31,
+        "categoría": "Vida / Seguridad",
+        "nombre_empresa": "Gaaon Co., Ltd.",
+        "nombre_producto": "Heartelligence",
+        "detalles": "Empresa de soluciones de salud para mascotas que diseña una vida diaria saludable a través del análisis preciso del estado basado en los datos biométricos de las mascotas.",
+        "clasificación": "Startup"
+    },
+    {
+        "número": 6,
+        "categoría": "Metaverso / XR",
+        "nombre_empresa": "NP Inc.",
+        "nombre_producto": "NP XR STAGE",
+        "detalles": "Empresa proveedora de soluciones de bienestar que infiere las emociones del usuario mediante IA y ofrece experiencias de meditación inmersiva personalizadas utilizando XR.",
+        "clasificación": "General"
+    },
+    {
+        "número": 8,
+        "categoría": "Metaverso / XR",
+        "nombre_empresa": "ArtigenSpace Co., Ltd.",
+        "nombre_producto": "ARty",
+        "detalles": "Empresa de soluciones edutech inmersivas que diseña nuevas experiencias para encontrar el conocimiento, rompiendo los límites entre los libros impresos y el mundo digital con tecnología de IA propia.",
+        "clasificación": "General"
+    },
+    {
+        "número": 16,
+        "categoría": "Metaverso / XR",
+        "nombre_empresa": "Naviworks Co., Ltd.",
+        "nombre_producto": "METAIEYES",
+        "detalles": "Naviworks hace realidad las ciudades inteligentes con servicios de control integrado urbano basados en gemelos digitales e IA.",
+        "clasificación": "General"
+    },
+    {
+        "número": 32,
+        "categoría": "Metaverso / XR",
+        "nombre_empresa": "WATA AI Inc.",
+        "nombre_producto": "WATA Spatial DX Platform",
+        "detalles": "WATA AI ofrece una plataforma de gestión logística de almacenes utilizando IA, Big Data y tecnología de posicionamiento, reconocida por su capacidad tecnológica al ganar 6 premios de innovación durante 4 años consecutivos en el CES.",
+        "clasificación": "Startup"
+    }
+]

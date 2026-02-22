@@ -1,0 +1,170 @@
+[
+    {
+        "categoría_pregunta": "Introducción General al Pabellón de Corea",
+        "descripción_categoría": "Explicación sobre el 'espacio de exhibición pública' del Pabellón de Corea.",
+        "alcance_respuesta": "Propósito y naturaleza del Pabellón de Corea",
+        "ejemplo_pregunta": "¿Qué tipo de espacio es el Pabellón de Corea?",
+        "fuente_referencia": "Descripción del Pabellón de Corea"
+    },
+    {
+        "categoría_pregunta": "Introducción General al Pabellón de Corea",
+        "descripción_categoría": "Explicación sobre el 'espacio de exhibición pública' del Pabellón de Corea.",
+        "alcance_respuesta": "Número de empresas participantes en el Pabellón de Corea",
+        "ejemplo_pregunta": "¿Qué tipo de sectores empresariales participan en el Pabellón de Corea?",
+        "fuente_referencia": "mwc2026_pabellon_integrado_corea.json"
+    },
+    {
+        "categoría_pregunta": "Introducción General al Pabellón de Corea",
+        "descripción_categoría": "Explicación sobre el 'espacio de exhibición pública' del Pabellón de Corea.",
+        "alcance_respuesta": "Campos tecnológicos cubiertos (centrados en IT/TIC)",
+        "ejemplo_pregunta": "¿Cuál es el papel del Pabellón de Corea en el MWC?",
+        "fuente_referencia": "mwc2026_pabellon_integrado_corea.json"
+    },
+    {
+        "categoría_pregunta": "Introducción General al Pabellón de Corea",
+        "descripción_categoría": "Explicación sobre el 'espacio de exhibición pública' del Pabellón de Corea.",
+        "alcance_respuesta": "Información sobre los pabellones (Halls) donde se ubica el Pabellón de Corea (general)",
+        "ejemplo_pregunta": "¿Cuántas empresas participan en el Pabellón de Corea?",
+        "fuente_referencia": "mwc2026_pabellon_integrado_corea.json"
+    },
+    {
+        "categoría_pregunta": "Resumen de Empresas Participantes",
+        "descripción_categoría": "Explicación de empresas individuales basada en información oficial proporcionada previamente.",
+        "alcance_respuesta": "Nombre de la empresa",
+        "ejemplo_pregunta": "¿Qué tipo de empresa es esta?",
+        "fuente_referencia": "mwc2026_descripcion_empresas_participantes.json"
+    },
+    {
+        "categoría_pregunta": "Resumen de Empresas Participantes",
+        "descripción_categoría": "Explicación de empresas individuales basada en información oficial proporcionada previamente.",
+        "alcance_respuesta": "Categoría de la empresa (según criterios del quiosco)",
+        "ejemplo_pregunta": "¿A qué industrias se dirige principalmente?",
+        "fuente_referencia": "mwc2026_categorias_empresas_participantes.json"
+    },
+    {
+        "categoría_pregunta": "Resumen de Empresas Participantes",
+        "descripción_categoría": "Explicación de empresas individuales basada en 정보 oficial proporcionada previamente.",
+        "alcance_respuesta": "Tecnología clave o nombre del producto",
+        "ejemplo_pregunta": "¿Cuál es el nombre del producto o tecnología principal de esta empresa?",
+        "fuente_referencia": "mwc2026_descripcion_empresas_participantes.json"
+    },
+    {
+        "categoría_pregunta": "Resumen de Empresas Participantes",
+        "descripción_categoría": "Explicación de empresas individuales 기반 공식 정보.",
+        "alcance_respuesta": "Explicación breve de la tecnología o producto principal",
+        "ejemplo_pregunta": "Por favor, explique el producto o tecnología principal de esta empresa.",
+        "fuente_referencia": "mwc2026_descripcion_empresas_participantes.json"
+    },
+    {
+        "categoría_pregunta": "Resumen de Empresas Participantes",
+        "descripción_categoría": "Explicación de empresas individuales 기반 공식 정보.",
+        "alcance_respuesta": "Qué problema resuelve (nivel Problema-Solución)",
+        "ejemplo_pregunta": "¿Qué tecnología maneja principalmente [Nombre de la empresa]?",
+        "fuente_referencia": "mwc2026_descripcion_empresas_participantes.json"
+    },
+    {
+        "categoría_pregunta": "Resumen de Empresas Participantes",
+        "descripción_categoría": "Explicación de empresas individuales 기반 공식 정보.",
+        "alcance_respuesta": "Información oficial proporcionada previamente por la empresa",
+        "ejemplo_pregunta": "¿Dónde se encuentra el stand de [Nombre de la empresa] dentro del Pabellón de Corea?",
+        "fuente_referencia": "mwc2026_descripcion_empresas_participantes.json"
+    },
+    {
+        "categoría_pregunta": "Resumen de Empresas Participantes",
+        "descripción_categoría": "Explicación de empresas individuales 기반 공식 정보.",
+        "alcance_respuesta": "Limitado al contenido registrado en la página de detalles de la empresa",
+        "ejemplo_pregunta": "¿Puedo ver el video promocional de [Nombre de la empresa]?",
+        "fuente_referencia": "Página de detalles de la empresa participante"
+    },
+    {
+        "categoría_pregunta": "Búsqueda y Recomendación de Empresas",
+        "descripción_categoría": "Ayuda para buscar y recomendar empresas según la consulta (curaduría).",
+        "alcance_respuesta": "Recomendación basada en el campo tecnológico",
+        "ejemplo_pregunta": "Recomiéndeme empresas coreanas relacionadas con la IA.",
+        "fuente_referencia": "mwc2026_categorias_empresas_participantes.json"
+    },
+    {
+        "categoría_pregunta": "Búsqueda y Recomendación de Empresas",
+        "descripción_categoría": "Ayuda para buscar y recomendar empresas según la consulta (curaduría).",
+        "alcance_respuesta": "Recomendación basada en la industria",
+        "ejemplo_pregunta": "Solo quiero ver empresas del sector de telecomunicaciones y redes.",
+        "fuente_referencia": "mwc2026_categorias_empresas_participantes.json"
+    },
+    {
+        "categoría_pregunta": "Búsqueda de Información Interna del Pabellón",
+        "descripción_categoría": "Todas las preguntas que pueden responderse basándose en la 정보 del Pabellón Integrado y categorías.",
+        "alcance_respuesta": "Lista de empresas dentro del Pabellón de Corea",
+        "ejemplo_pregunta": "¿Qué empresas hay en el Pabellón de Corea?",
+        "fuente_referencia": "mwc2026_pabellon_integrado_corea.json"
+    },
+    {
+        "categoría_pregunta": "Búsqueda de Información Interna del Pabellón",
+        "descripción_categoría": "Todas las preguntas que pueden responderse basándose en la 정보 del Pabellón Integrado y categorías.",
+        "alcance_respuesta": "Clasificación por categorías de empresas",
+        "ejemplo_pregunta": "¿Puedo ver solo las empresas del sector de IA/Seguridad?",
+        "fuente_referencia": "mwc2026_pabellon_integrado_corea.json"
+    },
+    {
+        "categoría_pregunta": "Búsqueda de Información Interna del Pabellón",
+        "descripción_categoría": "Todas las preguntas que pueden responderse basándose en la 정보 del Pabellón Integrado 및 카테고리 정보.",
+        "alcance_respuesta": "Participación de una empresa específica en el Pabellón de Corea",
+        "ejemplo_pregunta": "¿Participa la empresa [OO] en el Pabellón de Corea del MWC?",
+        "fuente_referencia": "mwc2026_descripcion_empresas_participantes.json"
+    },
+    {
+        "categoría_pregunta": "Preguntas sobre Tecnología de las Empresas",
+        "descripción_categoría": "Explicación complementaria para ayudar a entender los conceptos de tecnología y productos de las empresas.",
+        "alcance_respuesta": "Definición de la tecnología clave de la empresa",
+        "ejemplo_pregunta": "¿Cuál es la tecnología clave de esta empresa?",
+        "fuente_referencia": "mwc2026_descripcion_empresas_participantes.json, GPT"
+    },
+    {
+        "categoría_pregunta": "Preguntas sobre Tecnología de las Empresas",
+        "descripción_categoría": "Explicación complementaria para ayudar a entender los conceptos de tecnología y productos de las empresas.",
+        "alcance_respuesta": "Diferenciación respecto a tecnologías existentes",
+        "ejemplo_pregunta": "¿En qué se diferencia esta tecnología de las soluciones actuales?",
+        "fuente_referencia": "mwc2026_descripcion_empresas_participantes.json, GPT"
+    },
+    {
+        "categoría_pregunta": "Preguntas sobre Tecnología de las Empresas",
+        "descripción_categoría": "Explicación complementaria para ayudar a entender los conceptos de tecnología y productos de las empresas.",
+        "alcance_respuesta": "Campos de aplicación industrial de la tecnología",
+        "ejemplo_pregunta": "¿Dónde se utiliza esta tecnología?",
+        "fuente_referencia": "mwc2026_descripcion_empresas_participantes.json, GPT"
+    },
+    {
+        "categoría_pregunta": "Preguntas sobre Terminología Especializada",
+        "descripción_categoría": "Definición de términos técnicos y explicación de contexto que aparecen en las descripciones de productos.",
+        "alcance_respuesta": "Definición de términos técnicos",
+        "ejemplo_pregunta": "¿Qué es Edge AI?",
+        "fuente_referencia": "mwc2026_descripcion_empresas_participantes.json, GPT"
+    },
+    {
+        "categoría_pregunta": "Preguntas sobre Terminología Especializada",
+        "descripción_categoría": "Definición de términos técnicos y explicación de contexto que aparecen en las descripciones de productos.",
+        "alcance_respuesta": "Explicación comparativa de conceptos similares",
+        "ejemplo_pregunta": "¿En qué se diferencia la 5G Privada de la 5G normal?",
+        "fuente_referencia": "mwc2026_descripcion_empresas_participantes.json, GPT"
+    },
+    {
+        "categoría_pregunta": "Solicitud de Reestructuración de la Descripción del Producto",
+        "descripción_categoría": "Reestructuración de la descripción del producto según el nivel de comprensión.",
+        "alcance_respuesta": "Resumen de una sola línea",
+        "ejemplo_pregunta": "Explícame este producto en una sola línea.",
+        "fuente_referencia": "mwc2026_descripcion_empresas_participantes.json"
+    },
+    {
+        "categoría_pregunta": "Solicitud de Reestructuración de la Descripción del Producto",
+        "descripción_categoría": "Reestructuración de la descripción del producto según el nivel de comprensión.",
+        "alcance_respuesta": "Resumen de 3 líneas",
+        "ejemplo_pregunta": "Resúmelo en 3 líneas clave.",
+        "fuente_referencia": "mwc2026_descripcion_empresas_participantes.json"
+    },
+    {
+        "categoría_pregunta": "Solicitud de Reestructuración de la Descripción del Producto",
+        "descripción_categoría": "Reestructuración de la descripción del producto según el nivel de comprensión.",
+        "alcance_respuesta": "Explicación con ajuste de dificultad (explicación sencilla)",
+        "ejemplo_pregunta": "Explícamelo de forma que hasta un niño de primaria lo entienda.",
+        "fuente_referencia": "mwc2026_descripcion_empresas_participantes.json"
+    }
+]
