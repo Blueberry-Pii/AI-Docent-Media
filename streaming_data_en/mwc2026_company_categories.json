@@ -1,0 +1,258 @@
+[
+    {
+        "Number": 1,
+        "Category": "AI Convergence / Hyper-connectivity",
+        "Company Name": "Lablup Inc.",
+        "Product Name": "Backend.AI",
+        "Details": "Lablup develops Backend.AI, an infrastructure operation solution for all types of AI.",
+        "Type": "General"
+    },
+    {
+        "Number": 2,
+        "Category": "AI Convergence / Hyper-connectivity",
+        "Company Name": "U-CAST Co., Ltd.",
+        "Product Name": "Private 5G System",
+        "Details": "A specialized mobile communication company providing total solutions from hardware/software development to production and maintenance.",
+        "Type": "General"
+    },
+    {
+        "Number": 3,
+        "Category": "AI Convergence / Hyper-connectivity",
+        "Company Name": "Infoplata Co., Ltd.",
+        "Product Name": "RPA:M",
+        "Details": "Infoplata implements business automation using vision-based AI technology that understands screens like a human.",
+        "Type": "General"
+    },
+    {
+        "Number": 12,
+        "Category": "AI Convergence / Hyper-connectivity",
+        "Company Name": "RTX Technology Co., Ltd.",
+        "Product Name": "5G/6G Ceramic Waveguide Filter",
+        "Details": "A specialized company providing optimized communication solutions through customized manufacturing of high-quality/high-performance RF components.",
+        "Type": "General"
+    },
+    {
+        "Number": 13,
+        "Category": "AI Convergence / Hyper-connectivity",
+        "Company Name": "Iruon Co., Ltd.",
+        "Product Name": "5G Core (eCore)",
+        "Details": "A next-generation network core solution company leading communication technology evolution from 2G to 6G, based on deployment experience with carriers like KT and LG U+.",
+        "Type": "General"
+    },
+    {
+        "Number": 15,
+        "Category": "AI Convergence / Hyper-connectivity",
+        "Company Name": "EYL",
+        "Product Name": "Quantum Crypto Chip (QCC)",
+        "Details": "Based on the world's first micro-quantum random number generator (QRNG) technology using radioactive isotopes, EYL provides next-generation quantum fusion security solutions that block hacking in IoT, defense, and finance.",
+        "Type": "General"
+    },
+    {
+        "Number": 17,
+        "Category": "AI Convergence / Hyper-connectivity",
+        "Company Name": "F1 Security Co., Ltd.",
+        "Product Name": "F1-UWSS",
+        "Details": "A cybersecurity company providing cloud-based Unified Web Security Services (UWSS) based on professional information security consulting expertise.",
+        "Type": "Startup"
+    },
+    {
+        "Number": 21,
+        "Category": "AI Convergence / Hyper-connectivity",
+        "Company Name": "CIT Co., Ltd.",
+        "Product Name": "LDS Antenna",
+        "Details": "CIT is a company specializing in IT materials for high-speed data transmission.",
+        "Type": "Startup"
+    },
+    {
+        "Number": 27,
+        "Category": "AI Convergence / Hyper-connectivity",
+        "Company Name": "Langcode Inc.",
+        "Product Name": "Langcode CXP",
+        "Details": "An enterprise AI agent platform company enabling fast, safe deployment and scalability of agents.",
+        "Type": "Startup"
+    },
+    {
+        "Number": 29,
+        "Category": "AI Convergence / Hyper-connectivity",
+        "Company Name": "N-Open Inc.",
+        "Product Name": "FINGER LOCK",
+        "Details": "A security company creating privacy-centric Multi-Factor Authentication (MFA) solutions where users own their personal information without network dependence.",
+        "Type": "Startup"
+    },
+    {
+        "Number": 11,
+        "Category": "AI Convergence / Hyper-connectivity",
+        "Company Name": "Alt Inc.",
+        "Product Name": "KIDS OS",
+        "Details": "A smart device specialist developing and supplying specialized smartphones for kids/seniors, care platforms, AI care robots, and AI Android set-top boxes.",
+        "Type": "General"
+    },
+    {
+        "Number": 30,
+        "Category": "Mobility / Robotics",
+        "Company Name": "C4Line Co., Ltd.",
+        "Product Name": "C4L2000G-WB6E-2E",
+        "Details": "A manufacturer of IP Gigabit signal and Wi-Fi signal extender modems for smart home and smart building construction.",
+        "Type": "Startup"
+    },
+    {
+        "Number": 4,
+        "Category": "Mobility / Robotics",
+        "Company Name": "Point Mobile Co., Ltd.",
+        "Product Name": "PM84",
+        "Details": "A mobile solution company with a diverse industrial device lineup including rugged tablets, 5G MCPTT terminals, mobile computers, handheld terminals, POS, and scanners.",
+        "Type": "General"
+    },
+    {
+        "Number": 5,
+        "Category": "Mobility / Robotics",
+        "Company Name": "Cremo Co., Ltd.",
+        "Product Name": "360° Beam Coverage 5G Stackable Patch Antenna Module",
+        "Details": "A specialist covering the entire field of RF/antenna technology and system solutions based on 5G/6G, mmWave, and phased array antennas.",
+        "Type": "General"
+    },
+    {
+        "Number": 7,
+        "Category": "Mobility / Robotics",
+        "Company Name": "Optifle",
+        "Product Name": "OPTiFL-S1",
+        "Details": "A liquid crystal optical component specialist providing solutions for outdoor visibility and immersion in smart glasses (AR, VR, AI Glasses).",
+        "Type": "General"
+    },
+    {
+        "Number": 9,
+        "Category": "Mobility / Robotics",
+        "Company Name": "Delta X",
+        "Product Name": "In Cabin Monitoring Solution (ICMS)",
+        "Details": "Delta X develops cutting-edge AI solutions in computer vision and ESS to solve customer problems and provide future-oriented value.",
+        "Type": "General"
+    },
+    {
+        "Number": 10,
+        "Category": "Mobility / Robotics",
+        "Company Name": "SPS Co., Ltd.",
+        "Product Name": "Magconn",
+        "Details": "A company holding global IP for Magconn technology. It aims to standardize Magconn and expands application products through partnerships worldwide.",
+        "Type": "General"
+    },
+    {
+        "Number": 18,
+        "Category": "Mobility / Robotics",
+        "Company Name": "Roborisen Co., Ltd.",
+        "Product Name": "EDU CORE",
+        "Details": "G-Cube: The world's first open-platform robot that can implement all robot movements easily with a single module to create hundreds of types of robots.",
+        "Type": "Startup"
+    },
+    {
+        "Number": 20,
+        "Category": "Mobility / Robotics",
+        "Company Name": "JNE Works Co., Ltd.",
+        "Product Name": "VMS (Vessel Monitoring System)",
+        "Details": "An AI factory specialist building robot virtual manufacturing platforms based on manufacturing DNA.",
+        "Type": "Startup"
+    },
+    {
+        "Number": 25,
+        "Category": "Mobility / Robotics",
+        "Company Name": "Batterfly Co., Ltd.",
+        "Product Name": "BBTAN",
+        "Details": "An energy tech company realizing a circular economy for EVs through battery data analysis and AI-based safety, life, and residual value evaluation.",
+        "Type": "Startup"
+    },
+    {
+        "Number": 28,
+        "Category": "Life / Safety",
+        "Company Name": "EyeChip Co., Ltd.",
+        "Product Name": "EyeChip",
+        "Details": "A fabless company leading eye-tracking technology through advanced single-chip solutions.",
+        "Type": null
+    },
+    {
+        "Number": 14,
+        "Category": "Life / Safety",
+        "Company Name": "Becon Co., Ltd.",
+        "Product Name": "Scalp Scanner (M1)",
+        "Details": "An AI-based digital healthcare company managing scalp and skin.",
+        "Type": "General"
+    },
+    {
+        "Number": 19,
+        "Category": "Life / Safety",
+        "Company Name": "Norispace Co., Ltd.",
+        "Product Name": "NoriS Forgery Detection",
+        "Details": "A fintech startup providing AI-based forgery detection solutions for digital documents.",
+        "Type": "Startup"
+    },
+    {
+        "Number": 22,
+        "Category": "Life / Safety",
+        "Company Name": "Focus AI Co., Ltd.",
+        "Product Name": "FocusAI",
+        "Details": "A specialist in AI security and fintech payment solutions based in South Korea.",
+        "Type": "Startup"
+    },
+    {
+        "Number": 23,
+        "Category": "Life / Safety",
+        "Company Name": "Removing Company Inc.",
+        "Product Name": "Motion analyzer",
+        "Details": "A healthcare solution company designing healthy daily lives through data-based precision movement analysis.",
+        "Type": "Startup"
+    },
+    {
+        "Number": 24,
+        "Category": "Life / Safety",
+        "Company Name": "Beagles Inc.",
+        "Product Name": "Apeto",
+        "Details": "An AI content solution company extending offline goods into interactive digital experiences by combining IP, emotional AI, and NFC technology.",
+        "Type": "Startup"
+    },
+    {
+        "Number": 26,
+        "Category": "Life / Safety",
+        "Company Name": "Petnow Inc.",
+        "Product Name": "Petnow App",
+        "Details": "A global pet-tech company providing pet identification and data-based services using smartphone camera-based biometrics.",
+        "Type": "Startup"
+    },
+    {
+        "Number": 31,
+        "Category": "Life / Safety",
+        "Company Name": "Gaaon Co., Ltd.",
+        "Product Name": "Heartelligence",
+        "Details": "A pet healthcare solution company designing healthy daily lives through precise state analysis based on pet biometric data.",
+        "Type": "Startup"
+    },
+    {
+        "Number": 6,
+        "Category": "Metaverse / XR",
+        "Company Name": "NP Inc.",
+        "Product Name": "NP XR STAGE",
+        "Details": "A wellness solution provider offering personalized immersive meditation experiences using AI to infer user emotions and XR technology.",
+        "Type": "General"
+    },
+    {
+        "Number": 8,
+        "Category": "Metaverse / XR",
+        "Company Name": "ArtigenSpace Inc.",
+        "Product Name": "ARty",
+        "Details": "An immersive edutech solution company designing new knowledge experiences by blurring the boundary between paper books and the digital world with proprietary AI.",
+        "Type": "General"
+    },
+    {
+        "Number": 16,
+        "Category": "Metaverse / XR",
+        "Company Name": "Naviworks Co., Ltd.",
+        "Product Name": "METAIEYES",
+        "Details": "Naviworks realizes smart cities through digital twin and AI-based integrated urban control services.",
+        "Type": "General"
+    },
+    {
+        "Number": 32,
+        "Category": "Metaverse / XR",
+        "Company Name": "WATA AI Inc.",
+        "Product Name": "WATA Spatial DX Platform",
+        "Details": "WATA AI provides a warehouse logistics management platform using AI, Big Data, and positioning technology, recognized with 6 CES Innovation Awards over 4 consecutive years.",
+        "Type": "Startup"
+    }
+]

@@ -1,0 +1,157 @@
+[
+    {
+        "Classification": "Operations and Event Information",
+        "Event Name": "MWC Barcelona 2026 (Mobile World Congress)",
+        "Event Period": "March 2 (Mon) – March 5 (Thu), 2026 (4 days total)",
+        "Operating Hours by Date": {
+            "March 2 (Mon)": "09:00 - 19:00",
+            "March 3 (Tue)": "09:00 - 19:00",
+            "March 4 (Wed)": "09:00 - 19:00",
+            "March 5 (Thu)": "09:00 - 16:00 (Early closure on the last day)"
+        },
+        "Venue": "Fira Gran Via Exhibition Center, Barcelona, Spain",
+        "Purpose": "Support global expansion of innovative Korean companies, promote K-innovation technology, and establish global partnerships",
+        "Docent Greeting": "Hello! I am 'ARI', the AI Docent for the MWC 2026 Korea Pavilion. Please ask me anything about the pavilion's structure and the participating companies."
+    },
+    {
+        "Classification": "Space Guide",
+        "Location": "Hall 6",
+        "Name": "General Company Pavilion (Individual)",
+        "Major Content": "Exhibitions by professional companies in water resources and specific industrial sectors",
+        "Related Organizations": ["K-water"]
+    },
+    {
+        "Classification": "Space Guide",
+        "Location": "Hall 7",
+        "Name": "Integrated KOREA Pavilion",
+        "Major Content": "The main national pavilion where promising Korean SMEs are gathered",
+        "Related Organizations": ["KOTRA", "KICTA", "Gyeongsangbuk-do", "Seoul Business Agency (SBA)"]
+    },
+    {
+        "Classification": "Space Guide",
+        "Location": "Hall 8.1 (4YFN)",
+        "Name": "Startup Pavilion (4 Years From Now)",
+        "Major Content": "Dedicated pavilion for innovative startups and Big Tech ESG alliances",
+        "Related Organizations": ["KITA", "Korea Technology Finance Corporation", "SK Telecom", "KT", "LG Uplus", "K-water (Startup Team)"]
+    },
+    {
+        "Host Organization_KR": "한국수자원공사",
+        "Host Organization_EN": "K-Water",
+        "Category": "General",
+        "Exhibition Hall": "Hall 6",
+        "Booth Number": "6C16",
+        "Participation Scale": "1 Company",
+        "Participation Type": "Individual",
+        "Responsible Department": "K-water AI Promotion Division"
+    },
+    {
+        "Host Organization_KR": "대한무역투자진흥공사",
+        "Host Organization_EN": "Korea Trade-Investment Promotion Agency (KOTRA)",
+        "Category": "General",
+        "Exhibition Hall": "Hall 7",
+        "Booth Number": "7A62",
+        "Participation Scale": "32 Companies",
+        "Participation Type": "Joint Pavilion",
+        "Responsible Department": "-"
+    },
+    {
+        "Host Organization_KR": "한국정보통신기술산업협회",
+        "Host Organization_EN": "Korea Information & Communication Technology Industry Association (KICTA)",
+        "Category": "General",
+        "Exhibition Hall": "Hall 7",
+        "Booth Number": "7C51",
+        "Participation Scale": "17 Companies",
+        "Participation Type": "Joint Pavilion",
+        "Responsible Department": "Planning & Operations Team"
+    },
+    {
+        "Host Organization_KR": "경상북도관",
+        "Host Organization_EN": "Gyeongsangbuk-do",
+        "Category": "General",
+        "Exhibition Hall": "Hall 7",
+        "Booth Number": "7A69",
+        "Participation Scale": "10 Companies",
+        "Participation Type": "Joint Pavilion",
+        "Responsible Department": "AI Data Department"
+    },
+    {
+        "Host Organization_KR": "서울경제진흥원",
+        "Host Organization_EN": "Seoul Business Agency (SBA)",
+        "Category": "General",
+        "Exhibition Hall": "Hall 7",
+        "Booth Number": "7E51",
+        "Participation Scale": "20 Companies",
+        "Participation Type": "Joint Pavilion",
+        "Responsible Department": "DMC Vitalization Team"
+    },
+    {
+        "Host Organization_KR": "한국무역협회",
+        "Host Organization_EN": "Korea International Trade Association (KITA)",
+        "Category": "4YFN",
+        "Exhibition Hall": "Hall 8",
+        "Booth Number": "D30, D31",
+        "Participation Scale": "20 Companies",
+        "Participation Type": "Joint Pavilion",
+        "Responsible Department": "Startup Global Growth Bureau"
+    },
+    {
+        "Host Organization_KR": "한국정보통신산업기술협회",
+        "Host Organization_EN": "Korea Information & Communication Technology Industry Association (KICTA)",
+        "Category": "4YFN",
+        "Exhibition Hall": "Hall 8.1",
+        "Booth Number": "B41, 42",
+        "Participation Scale": "20 Companies",
+        "Participation Type": "Joint Pavilion",
+        "Responsible Department": "Planning & Operations Team"
+    },
+    {
+        "Host Organization_KR": "기술보증기금",
+        "Host Organization_EN": "Korea Technology Finance Corporation",
+        "Category": "4YFN",
+        "Exhibition Hall": "Hall 8.1",
+        "Booth Number": "D11",
+        "Participation Scale": "10 Companies",
+        "Participation Type": "Joint Pavilion",
+        "Responsible Department": "Venture Innovation Finance Department"
+    },
+    {
+        "Host Organization_KR": "한국수자원공사",
+        "Host Organization_EN": "Korea Water Resources Corporation (K-water)",
+        "Category": "4YFN",
+        "Exhibition Hall": "Hall 8.1",
+        "Booth Number": "D61",
+        "Participation Scale": "8 Companies",
+        "Participation Type": "Joint Pavilion",
+        "Responsible Department": "K-water New Growth Strategy Bureau"
+    },
+    {
+        "Host Organization_KR": "에스케이텔레콤",
+        "Host Organization_EN": "SK Telecom - ESG Alliance",
+        "Category": "4YFN",
+        "Exhibition Hall": "Hall 8.1",
+        "Booth Number": "TBA",
+        "Participation Scale": "15 Companies",
+        "Participation Type": "Joint Pavilion",
+        "Responsible Department": "-"
+    },
+    {
+        "Host Organization_KR": "케이티",
+        "Host Organization_EN": "KT Corporation",
+        "Category": "4YFN",
+        "Exhibition Hall": "Hall 8.1",
+        "Booth Number": "TBA",
+        "Participation Scale": "10 Companies",
+        "Participation Type": "Joint Pavilion",
+        "Responsible Department": "-"
+    },
+    {
+        "Host Organization_KR": "LG 유플러스",
+        "Host Organization_EN": "LG Uplus",
+        "Category": "4YFN",
+        "Exhibition Hall": "Hall 8.1",
+        "Booth Number": "TBA",
+        "Participation Scale": "10 Companies",
+        "Participation Type": "Joint Pavilion",
+        "Responsible Department": "-"
+    }
+]
