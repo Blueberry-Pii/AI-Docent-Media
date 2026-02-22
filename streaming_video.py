@@ -37,12 +37,23 @@ def request_video_stream(stream_id, session_id, full_text):
         "Authorization": f"Basic {DID_API_KEY}",
         "Content-Type": "application/json"
     }
+
+    speech_text = clean_text
+    if tag == "KO":
+        # 한국어는 하이픈(-)을 '다시'로 읽음
+        speech_text = speech_text.replace("-", " 다시 ")
+    else:
+        # 영어(EN)와 스페인어(ES)는 하이픈(-)을 공백으로 치환하여 자연스럽게 넘김
+        speech_text = speech_text.replace("-", " ")
+    
+    # 특수 기호 제거: 괄호 등을 읽지 않도록 클리닝
+    speech_text = re.sub(r'[\(\)\[\]]', '', speech_text)
     
     # 기존 payload를 이렇게 변경해 보세요
     payload = {
         "script": {
             "type": "text",
-            "input": clean_text,
+            "input": speech_text,
             "provider": {
                 "type": "microsoft",
                 "voice_id": voice_id
