@@ -147,7 +147,7 @@ def generate_ari_answer(user_input):
         """
 
     response = client.chat.completions.create(
-        model="gpt-4o",
+        model="gpt-4o-mini",
         messages=[
             {"role": "system", "content": ari_prompt},
             {"role": "user", "content": user_input}
