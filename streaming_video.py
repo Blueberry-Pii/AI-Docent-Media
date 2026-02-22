@@ -38,16 +38,21 @@ def request_video_stream(stream_id, session_id, full_text):
         "Content-Type": "application/json"
     }
     
+    # 기존 payload를 이렇게 변경해 보세요
     payload = {
         "script": {
             "type": "text",
-            "input": clean_text, # 화면에 출력되고 읽어줄 태그 없는 텍스트
+            "input": clean_text,
             "provider": {
-                "type": "microsoft", 
-                "voice_id": voice_id # 짧은 태그 대신 풀 보이스 ID 전달
+                "type": "microsoft",
+                "voice_id": voice_id
             }
         },
-        "config": {"fluent": True},
+        "config": {
+            "fluent": True,
+            "driver_name": "built-in", 
+            "normalization": False  # TTS 자동 교정 기능 끄기
+        },
         "session_id": session_id 
     }
     
