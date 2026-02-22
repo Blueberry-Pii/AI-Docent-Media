@@ -11,63 +11,63 @@
     "Category Description": "Description of the Korea Pavilion as a 'public exhibition space' itself.",
     "Answer Scope": "Number of participating companies in the Korea Pavilion",
     "Representative Example": "“Which industry sectors are represented in the Korea Pavilion?”",
-    "Reference Source": "mwc2026_integrated_korea_pavilion.json"
+    "Reference Source": "mwc2026_korea_pavilion.json"
   },
   {
     "Question Category": "General Korea Pavilion Introduction",
     "Category Description": "Description of the Korea Pavilion as a 'public exhibition space' itself.",
     "Answer Scope": "Technology sectors covered (IT/ICT focus)",
     "Representative Example": "“What role does the Korea Pavilion play at MWC?”",
-    "Reference Source": "mwc2026_integrated_korea_pavilion.json"
+    "Reference Source": "mwc2026_korea_pavilion.json"
   },
   {
     "Question Category": "General Korea Pavilion Introduction",
     "Category Description": "Description of the Korea Pavilion as a 'public exhibition space' itself.",
     "Answer Scope": "Hall information where the Korea Pavilion is located (approximate)",
     "Representative Example": "“How many companies are participating in the Korea Pavilion?”",
-    "Reference Source": "mwc2026_integrated_korea_pavilion.json"
+    "Reference Source": "mwc2026_korea_pavilion.json"
   },
   {
     "Question Category": "Korea Pavilion Participating Company 'Overview'",
     "Category Description": "Individual company descriptions based on official information provided in advance.",
     "Answer Scope": "Company name",
     "Representative Example": "“What kind of company is this?”",
-    "Reference Source": "mwc2026_participating_company_description.json"
+    "Reference Source": "mwc2026_company_descriptions.json"
   },
   {
     "Question Category": "Korea Pavilion Participating Company 'Overview'",
     "Category Description": "Individual company descriptions based on official information provided in advance.",
     "Answer Scope": "Company category (based on kiosk classification)",
     "Representative Example": "“Which industries do they mainly target?”",
-    "Reference Source": "mwc2026_participating_company_category.json"
+    "Reference Source": "mwc2026_company_categories.json"
   },
   {
     "Question Category": "Korea Pavilion Participating Company 'Overview'",
     "Category Description": "Individual company descriptions based on official information provided in advance.",
     "Answer Scope": "Core technology or product name",
     "Representative Example": "“What is the core product/technology of this company?”",
-    "Reference Source": "mwc2026_participating_company_description.json"
+    "Reference Source": "mwc2026_company_descriptions.json"
   },
   {
     "Question Category": "Korea Pavilion Participating Company 'Overview'",
     "Category Description": "Individual company descriptions based on official information provided in advance.",
     "Answer Scope": "One-line description of core technology or product",
     "Representative Example": "“Please explain this company's core product/technology.”",
-    "Reference Source": "mwc2026_participating_company_description.json"
+    "Reference Source": "mwc2026_company_descriptions.json"
   },
   {
     "Question Category": "Korea Pavilion Participating Company 'Overview'",
     "Category Description": "Individual company descriptions based on official information provided in advance.",
     "Answer Scope": "Problem-solving aspect (Problem–Solution level)",
     "Representative Example": "“What core technology does [Company Name] deal with?”",
-    "Reference Source": "mwc2026_participating_company_description.json"
+    "Reference Source": "mwc2026_company_descriptions.json"
   },
   {
     "Question Category": "Korea Pavilion Participating Company 'Overview'",
     "Category Description": "Individual company descriptions based on official information provided in advance.",
     "Answer Scope": "Official information provided by the company in advance",
     "Representative Example": "“Where is [Company Name]'s booth located within the Korea Pavilion?”",
-    "Reference Source": "mwc2026_participating_company_description.json"
+    "Reference Source": "mwc2026_company_descriptions.json"
   },
   {
     "Question Category": "Korea Pavilion Participating Company 'Overview'",
@@ -88,35 +88,35 @@
     "Category Description": "Assistance in exploring and recommending companies based on questions (Curation).",
     "Answer Scope": "Recommendations based on technology field",
     "Representative Example": "“Please recommend Korean companies related to AI.”",
-    "Reference Source": "mwc2026_participating_company_category.json"
+    "Reference Source": "mwc2026_company_categories.json"
   },
   {
     "Question Category": "Participant Exploration and Recommendation",
     "Category Description": "Assistance in exploring and recommending companies based on questions (Curation).",
     "Answer Scope": "Recommendations based on industry",
     "Representative Example": "“I only want to see companies in the telecommunications/network field.”",
-    "Reference Source": "mwc2026_participating_company_category.json"
+    "Reference Source": "mwc2026_company_categories.json"
   },
   {
     "Question Category": "Internal Korea Pavilion Information Search",
     "Category Description": "All questions answerable based on integrated Korea Pavilion information and category data.",
     "Answer Scope": "List of companies within the Korea Pavilion",
     "Representative Example": "“What companies are in the Korea Pavilion?”",
-    "Reference Source": "mwc2026_integrated_korea_pavilion.json"
+    "Reference Source": "mwc2026_korea_pavilion.json"
   },
   {
     "Question Category": "Internal Korea Pavilion Information Search",
     "Category Description": "All questions answerable based on integrated Korea Pavilion information and category data.",
     "Answer Scope": "Company category classification",
     "Representative Example": "“Can I see only AI/Security companies?”",
-    "Reference Source": "mwc2026_integrated_korea_pavilion.json"
+    "Reference Source": "mwc2026_korea_pavilion.json"
   },
   {
     "Question Category": "Internal Korea Pavilion Information Search",
     "Category Description": "All questions answerable based on integrated Korea Pavilion information and category data.",
     "Answer Scope": "Participation of a specific company in the Korea Pavilion",
     "Representative Example": "“Is [Company Name] participating in the MWC Korea Pavilion?”",
-    "Reference Source": "mwc2026_participating_company_description.json"
+    "Reference Source": "mwc2026_company_descriptions.json"
   },
   {
     "Question Category": "Internal Korea Pavilion Information Search",
@@ -172,55 +172,55 @@
     "Category Description": "Assistance in understanding the core technology and product concepts of participating companies.",
     "Answer Scope": "Definition of core technology",
     "Representative Example": "“What is this company's core technology?”",
-    "Reference Source": "mwc2026_participating_company_description.json, gpt"
+    "Reference Source": "mwc2026_company_descriptions.json, gpt"
   },
   {
     "Question Category": "Company Technical Explanation",
     "Category Description": "Assistance in understanding the core technology and product concepts of participating companies.",
     "Answer Scope": "Differentiation from existing technologies",
     "Representative Example": "“How is this technology different from existing solutions?”",
-    "Reference Source": "mwc2026_participating_company_description.json, gpt"
+    "Reference Source": "mwc2026_company_descriptions.json, gpt"
   },
   {
     "Question Category": "Company Technical Explanation",
     "Category Description": "Assistance in understanding the core technology and product concepts of participating companies.",
     "Answer Scope": "Industry fields where the technology is applied",
     "Representative Example": "“Where is this technology used?”",
-    "Reference Source": "mwc2026_participating_company_description.json, gpt"
+    "Reference Source": "mwc2026_company_descriptions.json, gpt"
   },
   {
     "Question Category": "Technical Terminology Explanation",
     "Category Description": "Defining technical terms and explaining the context of products.",
     "Answer Scope": "Definition of technical terms",
     "Representative Example": "“What is Edge AI?”",
-    "Reference Source": "mwc2026_participating_company_description.json, gpt"
+    "Reference Source": "mwc2026_company_descriptions.json, gpt"
   },
   {
     "Question Category": "Technical Terminology Explanation",
     "Category Description": "Defining technical terms and explaining the context of products.",
     "Answer Scope": "Comparison of similar concepts",
     "Representative Example": "“How is Private 5G different from regular 5G?”",
-    "Reference Source": "mwc2026_participating_company_description.json, gpt"
+    "Reference Source": "mwc2026_company_descriptions.json, gpt"
   },
   {
     "Question Category": "Product Explanation Reconfiguration Request",
     "Category Description": "Reconfiguring product explanations to match the user's level of understanding.",
     "Answer Scope": "One-line summary",
     "Representative Example": "“Explain this product in one line.”",
-    "Reference Source": "mwc2026_participating_company_description.json"
+    "Reference Source": "mwc2026_company_descriptions.json"
   },
   {
     "Question Category": "Product Explanation Reconfiguration Request",
     "Category Description": "Reconfiguring product explanations to match the user's level of understanding.",
     "Answer Scope": "Three-line summary",
     "Representative Example": "“Summarize the core points in 3 lines.”",
-    "Reference Source": "mwc2026_participating_company_description.json"
+    "Reference Source": "mwc2026_company_descriptions.json"
   },
   {
     "Question Category": "Product Explanation Reconfiguration Request",
     "Category Description": "Reconfiguring product explanations to match the user's level of understanding.",
     "Answer Scope": "Difficulty-adjusted explanation (easy explanation)",
     "Representative Example": "“Explain it so an elementary school student can understand.”",
-    "Reference Source": "mwc2026_participating_company_description.json"
+    "Reference Source": "mwc2026_company_descriptions.json"
   }
 ]
