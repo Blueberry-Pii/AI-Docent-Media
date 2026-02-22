@@ -47,9 +47,12 @@ def generate_ari_answer(user_input):
         - 다른 홀로 가는 길을 물으면 반드시 현재 위치인 Hall 7에서 출발하는 동선을 안내하세요.
 
         [상대적 동선 가이드]
-        - Hall 6 (일반 기업관) 가는 법: 현재 위치에서 남쪽 방향으로 바로 인접해 있습니다. 내부 연결 통로나 2층 공중 보행로를 이용하면 도보로 약 3~5분 안에 도착할 수 있습니다.
-        - Hall 8.1 (4YFN 스타트업 관) 가는 법: 전시장 북쪽 끝에 위치해 있습니다. Hall 8 방향 연결 통로를 따라 쭉 이동해야 하며, 거리가 꽤 멀어 도보로 약 7~10분 정도 소요됩니다.
-        - 화장실 및 편의시설: Hall 7 내부 및 각 홀 사이의 연결 구역에 위치해 있습니다. 상세 위치는 홈 화면 하단의 전시장 지도를 확인하라고 안내하세요.
+        - Hall 6 (일반 기업관) 가는 법
+        경로: 현재 위치(0층 전시홀)에서 1층(Level 1)으로 올라간 뒤, 남쪽 방향의 공중 보행로를 이용하세요.
+        - Hall 8.1 (4YFN 스타트업 관) 가는 법
+        경로: 현재 위치에서 1층(Level 1)으로 올라간 뒤, 공중 연결다리를 찾아 남동쪽 방향으로 길게 이동하세요.
+        - 화장실 위치 (Hall 7 Toilet 4)
+        경로: 부스 밖(통로)으로 나가서 바로 보이는 '경상북도(Gyeongsangbuk-do)' 부스를 지나, 그 뒤편을 확인하세요.
 
         [JSON 데이터]
         0. 질문 유형 및 답변 가이드: {json.dumps(question_data, ensure_ascii=False)}
@@ -102,13 +105,9 @@ def generate_ari_answer(user_input):
         - Ubicación actual: Hall 7, Stand 7A62 (Pabellón Integrado de Corea de KOTRA)
 
         [Reglas de información de ubicación del dispositivo]
-        - Si el usuario se refiere a "aquí", "este stand" o "este lugar", responda basándose en la ubicación actual (Hall 7, 7A62), el 'Pabellón Integrado de Corea de KOTRA'.
-        - Si se solicitan direcciones a otros pabellones, proporcione siempre la ruta partiendo desde la ubicación actual en el Hall 7.
-
-        [Guía de ruta relativa]
-        - Cómo llegar al Hall 6 (Pabellón de Empresas Generales): Se encuentra inmediatamente adyacente al sur de la ubicación actual. Puede llegar en unos 3-5 minutos a pie a través del pasillo de conexión interno o la pasarela elevada (Upper Walkway) del segundo piso.
-        - Cómo llegar al Hall 8.1 (Pabellón de Startups 4YFN): Se encuentra en el extremo norte del centro de exposiciones. Siga el pasillo de conexión hacia el Hall 8; es un trayecto algo largo, de unos 7-10 minutos a pie.
-        - Baños y Servicios: Se encuentran dentro del Hall 7 y en las áreas de conexión entre los pabellones. Indique al usuario que consulte el mapa de la exposición en la parte inferior de la pantalla de inicio para ver las ubicaciones detalladas.
+        - Hall 6 (Pabellón Corporativo General) : Desde tu ubicación actual (Sala de Exposición, Planta Baja), sube a la Planta 1 y toma la pasarela elevada en dirección sur.
+        - Hall 8.1 (Pabellón de Startups 4YFN) : Desde tu ubicación actual, sube a la Planta 1, encuentra el puente de conexión elevado y camina una distancia larga en dirección sureste.
+        - Baño — Hall 7 Baño 4 : Sal del stand al pasillo, pasa por el stand de "Gyeongsangbuk-do" que verás justo al frente, y comprueba la parte trasera del mismo.
 
         [Datos JSON]
         0. Guía de tipos de preguntas y respuestas: {json.dumps(question_data, ensure_ascii=False)}
@@ -165,9 +164,9 @@ def generate_ari_answer(user_input):
         - If asked for directions to other halls, always provide the route starting from the current location in Hall 7.
 
         [Relative Wayfinding Guide]
-        - Directions to Hall 6 (General Exhibition): Located immediately adjacent to the south of the current location. You can reach it in about 3-5 minutes on foot via the internal connecting passage or the 2nd-floor Upper Walkway.
-        - Directions to Hall 8.1 (4YFN Startup Pavilion): Located at the north end of the exhibition center. Follow the connecting passage towards Hall 8; it is a relatively long walk, taking about 7-10 minutes.
-        - Restrooms and Amenities: Located inside Hall 7 and in the connecting areas between halls. Advise the user to check the exhibition map at the bottom of the home screen for detailed locations.
+        - Hall 6 (General Corporate Pavilion) : From your current location (Ground Floor Exhibition Hall), go up to Level 1, then take the elevated walkway heading south.
+        - Hall 8.1 (4YFN Startup Pavilion) : From your current location, go up to Level 1, find the overhead connecting bridge, and walk a long way in the southeast direction.
+        - Restroom — Hall 7 Toilet 4 : Exit the booth into the corridor, pass the "Gyeongsangbuk-do" booth directly ahead of you, then check around the back of it.
 
         [JSON Data]
         0. Question Type & Response Guide: {json.dumps(question_data, ensure_ascii=False)}
