@@ -5,16 +5,10 @@ from dotenv import load_dotenv
 
 load_dotenv(override=True)
 
-# 데이터 로드
+# 데이터 로드 함수
 def load_json(file_path):
     with open(file_path, 'r', encoding='utf-8') as f:
         return json.load(f)
-
-# 파일 경로 설정
-question_data = load_json('streaming_data/mwc2026_ai도슨트답변가능질문.json')
-company_data = load_json('streaming_data/mwc2026_참가기업_설명.json')
-category_data = load_json('streaming_data/mwc2026_참가기업 카테고리.json')
-pavilion_data = load_json('streaming_data/mwc2026_통합한국관.json')
 
 # OpenAI 클라이언트 초기화
 client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
@@ -24,9 +18,15 @@ def generate_ari_answer(user_input):
     has_korean = any(0xAC00 <= ord(c) <= 0xD7A3 for c in user_input)
     has_spanish = any(c in "áéíóúüñ¿¡" for c in user_input.lower())
     
-    # 에디터에서 불이 들어오도록 lang_code를 설정하고 아래에서 사용합니다.
+    # 2. 언어별 데이터 로드 경로 설정
     if has_korean:
         lang_code = "KO"
+        base_path = "streaming_data_ko"
+        question_data = load_json(f'{base_path}/mwc2026_ai도슨트답변가능질문.json')
+        company_data = load_json(f'{base_path}/mwc2026_참가기업_설명.json')
+        category_data = load_json(f'{base_path}/mwc2026_참가기업 카테고리.json')
+        pavilion_data = load_json(f'{base_path}/mwc2026_통합한국관.json')
+
         ari_prompt = f"""
         너는 MWC 2026 한국관(KOREA Pavilion)의 AI 도슨트 '아리(ARI)'야.
         제공된 4개의 [JSON 데이터]를 참고하여 아래 규칙에 따라 질문에 답해줘.
@@ -45,8 +45,8 @@ def generate_ari_answer(user_input):
         1. **0번 데이터 최우선 대조**: 사용자의 질문이 0번에 정의된 '답변 가능 질문' 유형에 해당하는지 먼저 확인한다. 0번에서 답변이 불가능하다고 정의했거나, 언급되지 않은 유형의 질문은 "해당 정보는 제가 알지 못하니 안내 데스크에 문의해 주세요"라고 답한다.
         2. **데이터 매핑 답변**: 0번 가이드에서 지시하는 특정 JSON(1, 2, 3번)의 정보를 찾아 답변을 구성한다. 절대로 데이터를 지어내지 않는다.
         3. **자연스러운 문장 구성**: 
-            - 실제 도슨트처럼 끝맺음이 명확한 구어체 문장으로 답변한다.
-            - 정보량이 많을 경우 **최대 2문장**까지만 허용하며, 그 이상 길어지지 않게 한다.
+             - 실제 도슨트처럼 끝맺음이 명확한 구어체 문장으로 답변한다.
+             - 정보량이 많을 경우 **최대 2문장**까지만 허용하며, 그 이상 길어지지 않게 한다.
         4. **언어 식별 및 태그 규칙**:
             4-1. **언어 절대 일치**: 사용자 질문 언어를 판별하여 반드시 '동일한 언어'로 답변한다.
             4-2. **식별 태그 및 언어 강제 (Tag & Language Enforcement)**:
@@ -67,6 +67,12 @@ def generate_ari_answer(user_input):
         """
     elif has_spanish:
         lang_code = "ES"
+        base_path = "streaming_data_es"
+        question_data = load_json(f'{base_path}/mwc2026_preguntas_docente_ai.json')
+        company_data = load_json(f'{base_path}/mwc2026_descripcion_empresas_participantes.json')
+        category_data = load_json(f'{base_path}/mwc2026_categorias_empresas_participantes.json')
+        pavilion_data = load_json(f'{base_path}/mwc2026_pabellon_integrado_corea.json')
+
         ari_prompt = f"""
         Eres 'ARI', el docente de IA del Pabellón de Corea (KOREA Pavilion) en el MWC 2026.
         Responde a las preguntas siguiendo las reglas a continuación, consultando los 4 [Datos JSON] proporcionados.
@@ -85,8 +91,8 @@ def generate_ari_answer(user_input):
         1. **Contraste prioritario con el dato 0**: Verifique primero si la pregunta del usuario corresponde al tipo de 'pregunta respondible' definido en el dato 0. Si el dato 0 define que no se puede responder o es un tipo no mencionado, responda: "No tengo esa información, por favor consulte en el mostrador de información."
         2. **Respuesta basada en mapeo de datos**: Busque la información en el JSON específico (1, 2, 3) indicado en la guía 0 para construir la respuesta. Nunca invente datos.
         3. **Composición de oraciones naturales**: 
-            - Responda con oraciones completas que terminen de forma natural, como un docente real.
-            - Si hay mucha información, se permite un MÁXIMO de 2 oraciones y no debe ser más largo que eso.
+             - Responda con oraciones completas que terminen de forma natural, como un docente real.
+             - Si hay mucha información, se permite un MÁXIMO de 2 oraciones y no debe ser más largo que eso.
         4. **Reglas de identificación de idioma y etiquetas**:
             4-1. **Coincidencia absoluta de idioma**: Identifique el idioma de la pregunta del usuario y responda obligatoriamente en el 'mismo idioma'.
             4-2. **Etiqueta de identificación y cumplimiento de idioma (Tag & Language Enforcement)**:
@@ -107,6 +113,12 @@ def generate_ari_answer(user_input):
         """
     else:
         lang_code = "EN"
+        base_path = "streaming_data_en"
+        question_data = load_json(f'{base_path}/mwc2026_ai_docent_questions.json')
+        company_data = load_json(f'{base_path}/mwc2026_company_descriptions.json')
+        category_data = load_json(f'{base_path}/mwc2026_company_categories.json')
+        pavilion_data = load_json(f'{base_path}/mwc2026_korea_pavilion.json')
+
         ari_prompt = f"""
         You are 'ARI', the AI Docent for the KOREA Pavilion at MWC 2026.
         Please answer the questions following the rules below, referring to the 4 provided [JSON Data].
@@ -125,8 +137,8 @@ def generate_ari_answer(user_input):
         1. **Priority Check with Data 0**: First, check if the user's question falls under the 'answerable question' types defined in Data 0. If Data 0 defines it as unanswerable or the type is not mentioned, respond with: "I do not have that information, so please inquire at the information desk."
         2. **Data-mapped Response**: Construct the response by finding info in the specific JSON (1, 2, 3) directed by Guide 0. Never make up data.
         3. **Natural Sentence Construction**: 
-            - Answer in complete sentences that end naturally, just like a real docent.
-            - If there is a lot of information, allow a MAXIMUM of 2 sentences and ensure it doesn't get longer.
+             - Answer in complete sentences that end naturally, just like a real docent.
+             - If there is a lot of information, allow a MAXIMUM of 2 sentences and ensure it doesn't get longer.
         4. **Tag & Language Rules**:
             4-1. **Absolute Language Match**: Identify the user's question language and answer strictly in the 'same language'.
             4-2. **Tag & Language Enforcement**:
@@ -155,10 +167,8 @@ def generate_ari_answer(user_input):
         temperature=0
     )
 
-    # GPT의 답변을 가져옵니다.
     content = response.choices[0].message.content.strip()
 
-    # [중요] lang_code 변수를 여기서 사용하여 에디터 경고를 없애고 태그 일관성을 보장합니다.
     tag = f"[{lang_code}]"
     if not content.startswith(tag):
         content = f"{tag} {content}"
