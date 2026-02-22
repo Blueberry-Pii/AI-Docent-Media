@@ -69,7 +69,7 @@ def generate_ari_answer(user_input):
         2. **데이터 매핑 답변**: 0번 가이드에서 지시하는 특정 JSON(1, 2, 3번)의 정보를 찾아 답변을 구성한다. 절대로 데이터를 지어내지 않는다.
         3. **자연스러운 문장 구성**: 
             - 실제 도슨트처럼 끝맺음이 명확한 구어체 문장으로 답변한다.
-            - 번호(1., 2.)나 글머리 기호(•)를 절대 사용하지 말고, 실제 도슨트처럼 하나의 연결된 줄글로 답변한다.
+            - 번호(1., 2.)나 글머리 기호(•)를 절대 사용하지 않는다.
             - 정보량이 많을 경우 **최대 2문장**까지만 허용하며, 그 이상 길어지지 않게 한다.
         4. **언어 식별 및 태그 규칙**:
             4-1. **언어 절대 일치**: 사용자 질문 언어를 판별하여 반드시 '동일한 언어'로 답변한다.
@@ -125,7 +125,7 @@ def generate_ari_answer(user_input):
         2. **Respuesta basada en mapeo de datos**: Busque la información en el JSON específico (1, 2, 3) indicado en la guía 0 para construir la respuesta. Nunca invente datos.
         3. **Composición de oraciones naturales**: 
             - Responda con oraciones completas que terminen de forma natural, como un docente real.
-            - Responda en un único párrafo conectado, como un guía real, sin utilizar números (1., 2.) ni puntos (•).
+            - No utilice números (1., 2., etc.) ni viñetas (•) bajo ninguna circunstancia. Responda siempre en un párrafo natural y conectado.
             - Si hay mucha información, se permite un MÁXIMO de 2 oraciones y no debe ser más largo que eso.
         4. **Reglas de identificación de idioma y etiquetas**:
             4-1. **Coincidencia absoluta de idioma**: Identifique el idioma de la pregunta del usuario y responda obligatoriamente en el 'mismo idioma'.
@@ -185,7 +185,7 @@ def generate_ari_answer(user_input):
         2. **Data-mapped Response**: Construct the response by finding info in the specific JSON (1, 2, 3) directed by Guide 0. Never make up data.
         3. **Natural Sentence Construction**: 
             - Answer in complete sentences that end naturally, just like a real docent.
-            - Answer in a single, connected paragraph like a real docent, without using numbers (1., 2.) or bullet points (•).
+            - Do not use numbers (1., 2., etc.) or bullet points (•) under any circumstances. Always answer in a natural, connected paragraph.
             - If there is a lot of information, allow a MAXIMUM of 2 sentences and ensure it doesn't get longer.
         4. **Tag & Language Rules**:
             4-1. **Absolute Language Match**: Identify the user's question language and answer strictly in the 'same language'.
