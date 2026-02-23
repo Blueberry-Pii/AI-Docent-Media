@@ -27,8 +27,8 @@ def request_video_stream(stream_id, session_id, full_text):
         clean_text = match.group(2).strip() # 태그가 제외된 순수 답변 텍스트
         voice_id = voice_map.get(tag, "ko-KR-SunHiNeural") # 매핑된 ID 가져오기
     else:
-        # 태그가 없거나 형식이 다를 경우 기본값(한국어) 적용
-        voice_id = "ko-KR-SunHiNeural"
+        # 태그가 없거나 형식이 다를 경우 기본값(영어) 적용
+        voice_id = "en-US-JennyNeural"
         clean_text = full_text.strip()
 
     # 3. D-ID API 요청 설정
@@ -38,15 +38,16 @@ def request_video_stream(stream_id, session_id, full_text):
         "Content-Type": "application/json"
     }
 
+    # 1. 태그가 제거된 순수 텍스트 추출
     speech_text = clean_text
-    if tag == "KO":
-        # 한국어는 하이픈(-)을 '다시'로 읽음
-        speech_text = speech_text.replace("-", " 다시 ")
-    else:
-        # 영어(EN)와 스페인어(ES)는 하이픈(-)을 공백으로 치환하여 자연스럽게 넘김
-        speech_text = speech_text.replace("-", " ")
-    
-    # 특수 기호 제거: 괄호 등을 읽지 않도록 클리닝
+
+    # 2. 하이픈(-)을 공백으로 치환하여 '마이너스' 혹은 '다시'라고 읽는 것 방지
+    speech_text = speech_text.replace("-", " ")
+
+    # 3. 강조 표시용 별표(*) 제거하여 '별표'라고 읽는 것 방지
+    speech_text = speech_text.replace("*", "")
+
+    # 4. 괄호 (), [] 제거하여 부연 설명 기호 읽기 방지
     speech_text = re.sub(r'[\(\)\[\]]', '', speech_text)
     
     # 기존 payload를 이렇게 변경해 보세요
